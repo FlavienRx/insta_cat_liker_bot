@@ -1,0 +1,6 @@
+.env
+*.db
+*.txt
+!MobileNetSSD_deploy.prototxt.txt
+*.csv
+tmp.jpg
