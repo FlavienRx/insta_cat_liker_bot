@@ -62,7 +62,7 @@ profile.set_preference(
 )
 options = Options()
 
-if os.environ.get("SENTRY_SDK_ENVIRONMENT") == "production":
+if os.environ.get("ENVIRONMENT") == "production":
     options.headless = True
 
 driver = webdriver.Firefox(profile, service_log_path=os.devnull, options=options)

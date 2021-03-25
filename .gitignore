@@ -4,3 +4,4 @@
 !MobileNetSSD_deploy.prototxt.txt
 *.csv
 tmp.jpg
+Pipfile.lock

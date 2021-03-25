@@ -5,13 +5,14 @@ verify_ssl = true
 
 [dev-packages]
 black = "*"
+opencv-python = "*"
 
 [packages]
 selenium = "*"
-opencv-python = "*"
 sentry-sdk = "*"
 python-dotenv = "*"
 requests = "*"
+opencv-contrib-python = "*"
 
 [requires]
 python_version = "3.6"
