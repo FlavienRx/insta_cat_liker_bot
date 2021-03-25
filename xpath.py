@@ -14,9 +14,11 @@ xpath["user_name"] = "//a[@class='sqdOP yWX7d     _8A5w5   ZIAjV ']"
 xpath["like_btn"] = "//span[@class='fr66n']//button[@class='wpO6b  ']"
 xpath[
     "description"
-] = "//ul[@class='XQXOT   pXf-y']/div[@class='ZyFrc']//span[@class='']"
+] = "//ul[@class='XQXOT    pXf-y ']/div[@class='ZyFrc']//span[@class='']"
 xpath[
     "first_comment"
-] = "//ul[@class='XQXOT   pXf-y']//ul[@class='Mr508']//span[@class='']"
-xpath["liked_btn_svg"] = "//span[@class='fr66n']//button[@class='wpO6b  ']//*[*[local-name()='svg']/@aria-label='Like']"
+] = "//ul[@class='XQXOT    pXf-y ']//ul[@class='Mr508 ']//span[@class='']"
+xpath[
+    "liked_btn_svg"
+] = "//span[@class='fr66n']//button[@class='wpO6b  ']//*[*[local-name()='svg']/@aria-label='Like']"
 xpath["cross_btn"] = "//div[5]/div[3]/button"
