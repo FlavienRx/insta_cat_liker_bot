@@ -290,12 +290,12 @@ for city_url in locations_url:
                             pass_filter = False
 
                         if db.exist_in_table("ignoring_words", words):
-                            if not db.exist_in_table("wanted_word", words):
+                            if not db.exist_in_table("wanted_words", words):
                                 pass_filter = False
                             else:
                                 confidence_limit = 70
 
-                        elif db.exist_in_table("wanted_word", words):
+                        elif db.exist_in_table("wanted_words", words):
                             confidence_limit = 60
 
                         wait = len(words) * (60 / random.randint(270, 300))
