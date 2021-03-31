@@ -210,11 +210,11 @@ for city_url in locations_url:
                     # Check if already send by insert url into database
                     if db.already_send(url):
                         print("Already checked")
-                        # Get ouf loop for finding cat
+                        # Get out loop for finding cat
                         break
-                        # Get ouf loop for check photos
+                        # Get out loop for check photos
                         break
-                        # Get ouf loop for scroll down X times
+                        # Get out loop for scroll down X times
                         break
 
                     # Scroll to element
@@ -258,7 +258,7 @@ for city_url in locations_url:
                     pass_filter = True
                     like_state = ""
                     words = []
-                    confidence_limit = 95
+                    confidence_limit = 91
 
                     try:
                         # Find author image's description
