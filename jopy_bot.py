@@ -326,9 +326,12 @@ for city_url in locations_url:
                             continue
                             like_state = ":broken_heart: "
 
-                    # Click image box
-                    cross_elem = driver.find_element_by_xpath(xpath["cross_btn"])
-                    cross_elem.click()
+                    # Close image box
+                    image_box = driver.find_element_by_xpath(xpath["image_box"])
+                    action = ActionChains(driver)
+                    action.move_to_element_with_offset(image_box, -5, -5)
+                    action.click()
+                    action.perform()
 
                     if not pass_filter:
                         print("Filter not pass:", url)

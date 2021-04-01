@@ -22,3 +22,4 @@ xpath[
     "liked_btn_svg"
 ] = "//span[@class='fr66n']//button[@class='wpO6b  ']//*[*[local-name()='svg']/@aria-label='Like']"
 xpath["cross_btn"] = "//div[5]/div[3]/button"
+xpath["image_box"] = "/html/body/div[5]/div[2]/div/article"
