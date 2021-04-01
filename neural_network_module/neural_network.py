@@ -40,7 +40,12 @@ class NeuralNetwork:
 
     def detect(self, image_url):
         # Detect cats in image
-        img_data = requests.get(image_url).content
+        try:
+            img_data = requests.get(image_url).content
+        except requests.Timeout:
+            return []
+        except requests.ConnectionError:
+            return []
 
         with open("tmp.jpg", "wb") as tmp_image:
             tmp_image.write(img_data)
