@@ -46,7 +46,7 @@ base_path = os.path.dirname(os.path.realpath(__file__))
 
 db = DbWrapper(base_path, "database.db")
 
-locations_url = db.get_random_locations(9, 13)
+locations_url = db.get_random_locations(12, 16)
 
 neural_network = NeuralNetwork()
 
