@@ -80,9 +80,17 @@ WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.NAME, "userna
 
 # Manage cookie popup
 try:
-    time.sleep(random.randint(2, 4))  # seconds
     cookie_button = driver.find_element_by_xpath(xpath["accept_btn"])
     cookie_button.click()
+
+    # Wait until pop up is closed
+    try:
+        WebDriverWait(driver, 120).until(
+            EC.invisibility_of_element_located((By.XPATH, xpath["accept_btn"]))
+        )
+    except TimeoutException:
+        pass
+
 except NoSuchElementException:
     pass
 

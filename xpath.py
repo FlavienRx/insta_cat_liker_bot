@@ -1,7 +1,7 @@
 xpath = {}
 
 # Login xpath
-xpath["accept_btn"] = "//button[text()='Accept']"
+xpath["accept_btn"] = "//button[text()='Accept All']"
 xpath["login_btn"] = "//button[normalize-space()='Log In']"
 xpath["not_now_btn"] = "//button[text()='Not Now']"
 
