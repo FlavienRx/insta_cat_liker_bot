@@ -1,6 +1,6 @@
 # Instagram cat liker bot
 
-This bot is make to automaticolly like cat images on Istagram. Cat are reconized by pre trained neural network [MobileNet SSD](https://docs.openvinotoolkit.org/latest/omz_models_model_mobilenet_ssd.html).
+This bot is made to automaticolly like cat images on Istagram. Cat are reconized by pre trained neural network [MobileNet SSD](https://docs.openvinotoolkit.org/latest/omz_models_model_mobilenet_ssd.html).
 
 ## Instalation
 
